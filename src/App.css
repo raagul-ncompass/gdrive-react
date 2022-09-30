@@ -1,0 +1,174 @@
+body{
+  background-color: rgb(234, 244, 248);
+  /* font-family: "Courier New", monospace; */
+  font-weight: bolder;
+  font-family: system-ui;
+  padding: 2%;
+}
+table,tr,td,th{
+  margin: 2% 5%;
+  padding: 2em;
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+.vl {
+  border-left: 2px solid #26334d;
+  height: 100%;
+  position: absolute;
+  left: 80%;
+  margin-left: -3px;
+  top: 0;
+  bottom: 0;
+}
+.LinktoButton{
+    background-color: rgb(159, 153, 153);
+    color: white;
+    margin: 2px;
+    border-radius: 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+}
+.header{
+  text-align: center;
+}
+.editbtn{
+    background-color: rgb(121, 113, 113);
+    color: white;
+    padding: 5px 5px;
+    margin: 2px;
+    border-radius: 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+}
+.insertdiv{
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  padding: 100px;  
+}
+/* {
+ position: absolute;
+ left: 80%;
+ padding: 0;
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ background-color: rgb(234, 244, 248);
+} */
+.delbtn{
+  background-color: rgb(244, 80, 80);
+}
+.savebtn{
+  background-color: rgb(85, 255, 99);
+  padding: 5px 15px;
+}
+
+.editbtn:hover {
+  background-color: rgb(47, 45, 45);
+}
+.LinktoButton:hover {
+  background-color: rgb(47, 45, 45);
+}
+.savebtn:hover{
+  background-color: green;
+}
+.delbtn:hover{
+  background-color: red;
+}
+.headerRes {
+  background-color: #26334d;
+  color: white;
+}
+
+.modalButton {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer {
+  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color:white;
+  box-shadow: 0px 0px 0px 0px cyan(0, 0, 0, 0.75);
+  border-radius: 8px;
+    
+}
+.modalRight {
+  width: 100%;
+}
+.closeBtn {
+  left: 40 px;
+  position: fixed;
+  right: 8px;
+  background-color:white;
+  display:flex;
+  border-radius: 5 px;
+  padding: 5px;
+}
+.closeBtn:hover{
+  background-color: rgb(245, 44, 44);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+.btnContainer {
+  display: flex;
+  padding: 1rem 1rem;
+  
+}
+p {
+  color: red;
+}
+.btnContainer button {
+  width: 100%;
+  margin: .5rem;
+  padding: 16px 0;
+  border: 1px solid #297EBF;
+}
+.btnPrimary {
+  background-color:white;
+  color:black;
+  outline-color: purple;
+}
+.btnOutline {
+  background-color: white;
+  color:black;
+}
+
+.scrolltable{ 
+  height:  400px;
+  overflow: auto;
+}
+th{
+  background-color: #26334d;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+.response{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #26334d;
+}
